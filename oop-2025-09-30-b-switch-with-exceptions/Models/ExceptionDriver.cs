@@ -13,6 +13,7 @@ namespace oop_2025_09_30_b_switch_with_exceptions.Models
             Console.WriteLine("Exception Demos");
             IOExceptionDemo();
             InvalidOperationExceptionDemo();
+            ArgumentOutOfRangeExceptionDemo();
         }
         public static void IOExceptionDemo()
         {
@@ -43,5 +44,20 @@ namespace oop_2025_09_30_b_switch_with_exceptions.Models
 
         }
 
+        public static void ArgumentOutOfRangeExceptionDemo()
+        {
+
+            List<int> numbers = new List<int> { 1, 2, 3 };
+            try
+            {
+                Console.WriteLine(numbers[-1]);
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+
+                Console.WriteLine($"ArgumentOutOfRangeException\t caught:\t [ {ex.Message} ]");
+            }
+
+        }
     }
 }
