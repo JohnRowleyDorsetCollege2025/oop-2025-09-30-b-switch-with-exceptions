@@ -36,7 +36,22 @@ string result = number switch
 
 Console.WriteLine($"Switch Expression: {result}");
 
-//else
-//{
-//    
-//}
+Console.Write("Enter a color: ");
+string colour = Console.ReadLine().ToLower(); // Normalize input
+
+switch (colour)
+{
+    case "red":
+    case "orange":
+    case "yellow":
+    case "green":
+    case "blue":
+    case "indigo":
+    case "violet":
+        Console.WriteLine($"{colour} is a color in the rainbow.");
+        break;
+
+    default:
+        Console.WriteLine($"{colour} is NOT a color in the rainbow.");
+        break;
+}
