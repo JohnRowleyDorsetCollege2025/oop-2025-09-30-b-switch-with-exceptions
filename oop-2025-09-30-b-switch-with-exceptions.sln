@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oop-2025-09-30-b-switch-with-exceptions", "oop-2025-09-30-b-switch-with-exceptions\oop-2025-09-30-b-switch-with-exceptions.csproj", "{42A20D79-0C4F-4991-B8A8-58F54CF7172C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42A20D79-0C4F-4991-B8A8-58F54CF7172C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A20D79-0C4F-4991-B8A8-58F54CF7172C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A20D79-0C4F-4991-B8A8-58F54CF7172C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A20D79-0C4F-4991-B8A8-58F54CF7172C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7C32FBE-3966-4A9A-AA7E-76DF3E7950FE}
+	EndGlobalSection
+EndGlobal
