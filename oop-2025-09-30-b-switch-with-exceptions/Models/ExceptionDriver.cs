@@ -12,6 +12,7 @@ namespace oop_2025_09_30_b_switch_with_exceptions.Models
         {
             Console.WriteLine("Exception Demos");
             IOExceptionDemo();
+            InvalidOperationExceptionDemo();
         }
         public static void IOExceptionDemo()
         {
@@ -25,6 +26,21 @@ namespace oop_2025_09_30_b_switch_with_exceptions.Models
             {
                 Console.WriteLine($"IOException\t caught:\t [ {ex.Message} ]");
             }
+        }
+        public static void InvalidOperationExceptionDemo()
+        {
+            Queue<int> numbersQueue = new Queue<int>();
+
+
+            try
+            {
+                int number = numbersQueue.Dequeue();
+            }
+            catch (InvalidOperationException ex)
+            {
+                Console.WriteLine($"InvalidOperationException\t caught:\t [ {ex.Message} ]");
+            }
+
         }
 
     }
